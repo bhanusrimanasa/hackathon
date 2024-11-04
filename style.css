@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+nav {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#home input[type="text"] {
+    padding: 0.8rem;
+    width: 80%;
+    max-width: 600px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 1rem;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+/* Section Styling */
+section {
+    padding: 3rem;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Project and Notes Grid */
+.project-grid, .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card Styles */
+.card, .exam-item, .note-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3, .note-item h4, .exam-item h4 {
+    color: #0072ff;
+    margin-bottom: 0.5rem;
+}
+
+.card p, .note-item p, .exam-item p {
+    color: #555;
+}
+
+/* Button Styles */
+.card button, .exam-item button, .note-item button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover, .exam-item button:hover, .note-item button:hover {
+    background-color: #005bb5;
+}
+
+
+.exam-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#projects {
+    background-color: #f0f4ff;
+}
+
+#exams {
+    background-color: #e8f7f0;
+}
+
+#notes {
+    background-color: #fff4e6;
+}
+
+
